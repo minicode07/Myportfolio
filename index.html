@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sikile Minnie Melvina | MBA HR &amp; Python/Django Specialist</title>
+  <meta name="description" content="MBA HR Graduate combining HR operations with Django, SQL, and Python. Recruitment support, HR systems, and REST APIs." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#070b14",
+            panel: "#101827",
+            line: "#1e2a3f",
+            mint: "#2dd4bf",
+            gold: "#fbbf24"
+          },
+          fontFamily: {
+            sans: ["Inter", "system-ui", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-ink text-slate-200 font-sans antialiased">
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-mint focus:text-ink focus:px-4 focus:py-2 focus:rounded-lg">Skip to content</a>
+
+  <header class="sticky top-0 z-40 border-b border-line/80 bg-ink/80 backdrop-blur-xl">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+      <a href="#home" class="text-sm font-bold tracking-wide text-white">SMM<span class="text-mint">.</span></a>
+      <ul class="hidden items-center gap-6 text-sm text-slate-300 md:flex">
+        <li><a class="hover:text-mint transition" href="#summary">About</a></li>
+        <li><a class="hover:text-mint transition" href="#skills">Skills</a></li>
+        <li><a class="hover:text-mint transition" href="#projects">Projects</a></li>
+        <li><a class="hover:text-mint transition" href="#internship">Internship</a></li>
+        <li><a class="hover:text-mint transition" href="#education">Education</a></li>
+        <li><a class="rounded-full bg-mint px-4 py-1.5 font-semibold text-ink hover:bg-teal-300 transition" href="#contact">Contact</a></li>
+      </ul>
+      <button id="menu-btn" class="md:hidden text-slate-200" aria-label="Open menu">
+        <i data-lucide="menu" class="h-6 w-6"></i>
+      </button>
+    </nav>
+    <div id="mobile-menu" class="hidden border-t border-line px-4 py-4 md:hidden">
+      <div class="flex flex-col gap-3 text-sm">
+        <a href="#summary">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#internship">Internship</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="relative overflow-hidden">
+      <div class="pointer-events-none absolute inset-0 hero-glow"></div>
+      <div class="mx-auto grid max-w-6xl items-center gap-12 px-4 py-20 md:grid-cols-[1.2fr_0.8fr] md:py-28">
+        <div class="reveal">
+          <p class="mb-4 inline-flex items-center gap-2 rounded-full border border-mint/30 bg-mint/10 px-3 py-1 text-xs font-medium text-mint">
+            Open to HR coordination &amp; technical HR roles
+          </p>
+          <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Sikile Minnie Melvina
+          </h1>
+          <p class="mt-4 max-w-xl text-lg text-slate-300">
+            MBA HR Graduate | HR Coordination &amp; Recruitment Support | Python, SQL &amp; Django Specialist
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#projects" class="btn-primary">View Projects</a>
+            <a href="resume.pdf" download class="btn-secondary">Download Resume</a>
+            <a href="#contact" class="btn-ghost">Contact Me</a>
+          </div>
+          <div class="mt-8 flex flex-wrap items-center gap-4">
+            <a class="icon-link" href="https://github.com/minicode07" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i data-lucide="github"></i>
+            </a>
+            <a class="icon-link" href="https://linkedin.com/in/sikile-minnie-melvina-a51645311" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a class="icon-link" href="mailto:minniemelvina31@gmail.com" aria-label="Email">
+              <i data-lucide="mail"></i>
+            </a>
+            <a class="icon-link" href="tel:+919492911600" aria-label="Phone">
+              <i data-lucide="phone"></i>
+            </a>
+            <span class="text-sm text-slate-400">minniemelvina31@gmail.com · +91 9492911600</span>
+          </div>
+        </div>
+        <aside class="reveal card-contrast p-6">
+          <p class="text-xs uppercase tracking-[0.2em] text-mint">Dual capability</p>
+          <h2 class="mt-2 text-2xl font-bold text-white">HR operations + technical execution</h2>
+          <ul class="mt-5 space-y-3 text-sm text-slate-300">
+            <li class="flex gap-2"><i data-lucide="check-circle-2" class="mt-0.5 h-4 w-4 text-mint"></i> Leave workflows &amp; retention analytics</li>
+            <li class="flex gap-2"><i data-lucide="check-circle-2" class="mt-0.5 h-4 w-4 text-gold"></i> Django REST Framework, SQL &amp; Python</li>
+            <li class="flex gap-2"><i data-lucide="check-circle-2" class="mt-0.5 h-4 w-4 text-mint"></i> Recruitment support &amp; HRIS structuring</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="summary" class="mx-auto max-w-6xl px-4 py-16">
+      <div class="reveal card-contrast p-8 md:p-10">
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="mt-4 max-w-4xl text-slate-300 leading-relaxed">
+          MBA (HR) graduate who pairs people-operations judgment with hands-on systems work. On the HR side, I design leave workflows, support recruitment coordination, and translate survey and HRIS data into retention insight. On the technical side, I build Django applications and Django REST Framework APIs, model data in SQL/PostgreSQL, and ship searchable records, role-based access, and decision dashboards. The result is an HR professional who can both run the process and implement the tool that makes it reliable.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="mx-auto max-w-6xl px-4 py-8">
+      <div class="reveal">
+        <h2 class="section-title">Skills</h2>
+        <p class="mt-2 text-slate-400">Interactive skill cards — hover pills for glow.</p>
+      </div>
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <article class="reveal card-contrast p-6">
+          <div class="mb-4 flex items-center gap-2 text-mint">
+            <i data-lucide="users"></i>
+            <h3 class="font-semibold text-white">HR &amp; Operations</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-pill">Recruitment</span>
+            <span class="skill-pill">Employee Engagement</span>
+            <span class="skill-pill">Leave Workflow Design</span>
+            <span class="skill-pill">Role-Based Access Control</span>
+            <span class="skill-pill">HRIS/HRMS Data Structuring</span>
+          </div>
+        </article>
+        <article class="reveal card-contrast p-6">
+          <div class="mb-4 flex items-center gap-2 text-gold">
+            <i data-lucide="code-2"></i>
+            <h3 class="font-semibold text-white">Technical Stack</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">Django</span>
+            <span class="skill-pill">Django REST Framework (DRF)</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">PostgreSQL</span>
+            <span class="skill-pill">HTML5</span>
+            <span class="skill-pill">CSS3</span>
+            <span class="skill-pill">JavaScript</span>
+          </div>
+        </article>
+        <article class="reveal card-contrast p-6">
+          <div class="mb-4 flex items-center gap-2 text-sky-400">
+            <i data-lucide="bar-chart-3"></i>
+            <h3 class="font-semibold text-white">Data &amp; Tools</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill-pill">Excel</span>
+            <span class="skill-pill">Power BI</span>
+            <span class="skill-pill">Data Visualization</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">Postman</span>
+            <span class="skill-pill">REST APIs</span>
+            <span class="skill-pill">CRUD Operations</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="mx-auto max-w-6xl px-4 py-16">
+      <div class="reveal flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <h2 class="section-title">Featured Technical Projects</h2>
+          <p class="mt-2 text-slate-400">Filter by domain to see HR systems vs API work.</p>
+        </div>
+        <div class="tab-bar" role="tablist" aria-label="Project filters">
+          <button class="tab-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="tab-btn" data-filter="hr" role="tab" aria-selected="false">HR Tech Systems</button>
+          <button class="tab-btn" data-filter="api" role="tab" aria-selected="false">REST APIs</button>
+        </div>
+      </div>
+
+      <div class="mt-8 grid gap-6 md:grid-cols-2">
+        <article class="reveal project-card" data-category="hr">
+          <div class="flex items-start justify-between gap-3">
+            <h3 class="text-xl font-bold text-white">Django HR Management System</h3>
+            <span class="badge">HR Tech</span>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <span class="skill-pill skill-pill-sm">Django</span>
+            <span class="skill-pill skill-pill-sm">Python</span>
+            <span class="skill-pill skill-pill-sm">SQL</span>
+            <span class="skill-pill skill-pill-sm">HTML</span>
+            <span class="skill-pill skill-pill-sm">CSS</span>
+          </div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-300">
+            <li>Employee profile management and searchable records</li>
+            <li>Leave &amp; asset request flows</li>
+            <li>Role-based access control (Employee vs Admin)</li>
+            <li>Leave approval and cancellation workflows</li>
+            <li>Metric dashboards for decision-making</li>
+          </ul>
+        </article>
+
+        <article class="reveal project-card" data-category="api">
+          <div class="flex items-start justify-between gap-3">
+            <h3 class="text-xl font-bold text-white">DRF Inventory Management API</h3>
+            <span class="badge badge-gold">REST API</span>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <span class="skill-pill skill-pill-sm">Django REST Framework</span>
+            <span class="skill-pill skill-pill-sm">Python</span>
+            <span class="skill-pill skill-pill-sm">SQL</span>
+          </div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-300">
+            <li>Token authentication: login, logout, and register</li>
+            <li>CRUD for products, categories, and orders</li>
+            <li>Stock restoration on order cancellation</li>
+            <li>Django ORM aggregation for dashboard analytics</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="internship" class="mx-auto max-w-6xl px-4 py-8">
+      <div class="reveal">
+        <h2 class="section-title">Internship &amp; Analytics Case Study</h2>
+        <p class="mt-2 text-slate-300">
+          <strong class="text-white">HR Research Intern</strong> @ Reliance Industries Limited — Gadimoga, Kakinada
+        </p>
+        <p class="text-mint text-sm mt-1">Project: Attrition &amp; Employee Motivation Analysis</p>
+      </div>
+
+      <div class="mt-8 grid gap-4 sm:grid-cols-3">
+        <div class="reveal metric-card">
+          <p class="text-3xl font-extrabold text-white">120</p>
+          <p class="text-sm text-slate-400">Survey respondents<br /><span class="text-xs">from a 200 candidate pool</span></p>
+        </div>
+        <div class="reveal metric-card">
+          <p class="text-3xl font-extrabold text-white">17</p>
+          <p class="text-sm text-slate-400">Data tables &amp; charts created</p>
+        </div>
+        <div class="reveal metric-card">
+          <p class="text-sm font-semibold text-white mb-2">Primary attrition drivers</p>
+          <p class="text-sm text-slate-300">40% Career Growth · 36% Family Factors · 16% Compensation</p>
+        </div>
+      </div>
+
+      <article class="reveal card-contrast mt-6 p-6 md:p-8">
+        <h3 class="text-lg font-bold text-white">Actionable retention recommendations</h3>
+        <p class="mt-3 text-slate-300 leading-relaxed">
+          Findings were presented to management as a retention playbook: prioritize structured career-pathing and internal mobility to address the 40% growth-driven risk; introduce family-support policies and scheduling flexibility for the 36% family-factor cohort; and treat compensation as a targeted lever (16%), not the sole retention strategy. Combined with clearer role design and engagement tracking, these actions convert survey insight into a practical workforce-stability plan.
+        </p>
+      </article>
+    </section>
+
+    <section id="education" class="mx-auto max-w-6xl px-4 py-16">
+      <h2 class="section-title reveal">Education &amp; Certifications</h2>
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <article class="reveal card-contrast p-6">
+          <p class="text-xs uppercase tracking-widest text-mint">MBA (HR)</p>
+          <h3 class="mt-2 font-semibold text-white">Rajiv Gandhi Institute of Management and Science</h3>
+          <p class="mt-2 text-sm text-slate-400">CGPA: 8.66</p>
+        </article>
+        <article class="reveal card-contrast p-6">
+          <p class="text-xs uppercase tracking-widest text-gold">B.A.</p>
+          <h3 class="mt-2 font-semibold text-white">ASD Govt. Degree College for Women</h3>
+          <p class="mt-2 text-sm text-slate-400">CGPA: 7.89</p>
+        </article>
+        <article class="reveal card-contrast p-6">
+          <p class="text-xs uppercase tracking-widest text-sky-400">Certification</p>
+          <h3 class="mt-2 font-semibold text-white">Full Stack Development with Python and Django</h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="mx-auto max-w-6xl px-4 pb-24">
+      <div class="reveal grid gap-8 md:grid-cols-2">
+        <div>
+          <h2 class="section-title">Contact</h2>
+          <p class="mt-3 text-slate-300">Use the form as a layout placeholder, or reach me directly.</p>
+          <a class="mt-6 inline-flex items-center gap-2 text-mint hover:underline" href="mailto:minniemelvina31@gmail.com">
+            <i data-lucide="mail" class="h-4 w-4"></i>
+            minniemelvina31@gmail.com
+          </a>
+          <p class="mt-2 text-slate-400 text-sm">
+            <a class="hover:text-mint" href="tel:+919492911600">+91 9492911600</a>
+          </p>
+          <div class="mt-6 flex gap-3">
+            <a class="icon-link" href="https://github.com/minicode07" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+            <a class="icon-link" href="https://linkedin.com/in/sikile-minnie-melvina-a51645311" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+            <a class="icon-link" href="mailto:minniemelvina31@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+            <a class="icon-link" href="tel:+919492911600" aria-label="Phone"><i data-lucide="phone"></i></a>
+          </div>
+        </div>
+        <form class="card-contrast p-6 space-y-4" onsubmit="event.preventDefault(); window.location.href='mailto:minniemelvina31@gmail.com';">
+          <label class="block text-sm">
+            Name
+            <input class="form-input" type="text" name="name" placeholder="Your name" />
+          </label>
+          <label class="block text-sm">
+            Email
+            <input class="form-input" type="email" name="email" placeholder="you@example.com" />
+          </label>
+          <label class="block text-sm">
+            Message
+            <textarea class="form-input min-h-[120px]" name="message" placeholder="Form UI placeholder — submit opens email."></textarea>
+          </label>
+          <button type="submit" class="btn-primary w-full sm:w-auto">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-line py-8 text-center text-xs text-slate-500">
+    © 2026 Sikile Minnie Melvina. Built with HTML, Tailwind CSS &amp; Lucide.
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+
+    document.getElementById("menu-btn").addEventListener("click", () => {
+      document.getElementById("mobile-menu").classList.toggle("hidden");
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) entry.target.classList.add("is-visible");
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+    const tabs = document.querySelectorAll(".tab-btn");
+    const cards = document.querySelectorAll(".project-card");
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        tabs.forEach((t) => {
+          t.classList.remove("is-active");
+          t.setAttribute("aria-selected", "false");
+        });
+        tab.classList.add("is-active");
+        tab.setAttribute("aria-selected", "true");
+        const filter = tab.dataset.filter;
+        cards.forEach((card) => {
+          const show = filter === "all" || card.dataset.category === filter;
+          card.classList.toggle("is-hidden", !show);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
